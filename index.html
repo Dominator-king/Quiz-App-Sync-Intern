@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <script src="script.js"></script>
+  <body>
+    <h1 class="text-4xl text-blue-500 text-center mt-5">Quizz App</h1>
+    <main
+      class="flex flex-col mt-5 w-full p-4 sm:text-center text-blue-800 sm:w-3/4 mx-auto rounded-xl shadow-lg bg-slate-200"
+    >
+      <h1 id="question" class="text-2xl sm:text-3xl">
+        Q<span id="q-no"></span>
+      </h1>
+      <form
+        id="answerArea"
+        class="flex flex-col p-3 my-4 justify-center align-middle"
+      >
+        <button
+          id="button"
+          class="w-auto m-auto p-2 shadow-sm rounded-xl bg-gray-100"
+        >
+          Show correct Answer
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

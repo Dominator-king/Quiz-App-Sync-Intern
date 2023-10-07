@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.option-label > .option-input:checked {
+  @apply bg-blue-500 text-white;
+}
